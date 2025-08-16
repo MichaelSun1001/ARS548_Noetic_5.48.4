@@ -7,7 +7,7 @@
     <!-- </node> -->
     <node pkg="ars548_process" type="info_convert_node" name="info_convert_side_node">
     </node>
-    <node pkg="rviz" type="rviz" name="rviz_side" output="screen" args="-d $(find ars548_process)/launch/ars548_side_display.rviz">
+    <node pkg="rviz" type="rviz" name="rviz_side" output="screen" args="-d $(find ars548_process)/launch/ars548_display.rviz">
     </node>
 
 </launch>
